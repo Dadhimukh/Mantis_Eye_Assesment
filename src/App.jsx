@@ -1,16 +1,14 @@
-// src/App.js
 import React from "react";
-import orgData from "./data";
-import OrganizationChart from "./components/OrganizationChart";
-import "./App.css"; // Apply your CSS styles here
+import "./App.css";
+import OrgStructure from "./components/OrgStructure";
 
-const App = () => {
+function App() {
   return (
-    <div className="app">
-      <h1>Organizational Chart</h1>
-      <OrganizationChart orgData={orgData} managerId={null} />
+    <div className="App">
+      <h1>Organizational Structure</h1>
+      <OrgStructure />
     </div>
   );
-};
+}
 
 export default App;
