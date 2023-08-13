@@ -1,5 +1,3 @@
-// src/data.js
-
 const orgData = [
   {
     id: 1,
